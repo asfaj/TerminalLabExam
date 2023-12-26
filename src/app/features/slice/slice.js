@@ -7,6 +7,11 @@ export const dataSlice = createSlice({
         missions: []
     },
     reducers: {
+        addRockets: (state,action)=>{
+         
+            state.rockets= [...state.rockets, rocket]
+        }
+
 
     }
 })
